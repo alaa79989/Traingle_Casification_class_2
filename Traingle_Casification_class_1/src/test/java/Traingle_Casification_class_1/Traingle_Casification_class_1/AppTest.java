@@ -16,7 +16,7 @@ public class AppTest {
 	public void check_Scalene1(){
         int a = 10;
         int b = 2;
-        int c=4;
+        int c=2;
         triangle.classifyTriangle(a,b,c);
         String expected =Triangle_Types.Nottriangle.toString();
         String result = triangle.get_type().toString();
@@ -24,9 +24,9 @@ public class AppTest {
     }
 	@Test
 	public void check_Scalene2(){
-        int a = 4;
+        int a = 2;
         int b = 7;
-        int c=1;
+        int c=2;
         triangle.classifyTriangle(a,b,c);
         String expected =Triangle_Types.Nottriangle.toString();
         String result = triangle.get_type().toString();
@@ -85,8 +85,8 @@ public class AppTest {
 	@Test
 	public void check_Scalene8(){
         int a =3;
-        int b =5;
-        int c=4;
+        int b =4;
+        int c=5;
         triangle.classifyTriangle(a,b,c);
         String expected =Triangle_Types.Scalene.toString();
         String result = triangle.get_type().toString();
