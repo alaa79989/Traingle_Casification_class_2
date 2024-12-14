@@ -1,4 +1,7 @@
+
 package Traingle_Casification_class_1.Traingle_Casification_class_1;
+
+import Traingle_Casification_class_1.Traingle_Casification_class_1.Triangle_Types;
 
 /**
  * Hello world!
